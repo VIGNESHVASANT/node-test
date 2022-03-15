@@ -1,7 +1,6 @@
-import express from "express";
 import dotenv from "dotenv";
+import express from "express";
 import { MongoClient } from "mongodb";
-
 dotenv.config();
 
 console.log(process.env.MONGO_URL);
